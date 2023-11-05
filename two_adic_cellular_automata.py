@@ -20,7 +20,7 @@ def run_addictive_2_adic_cellular_automata(q, timesteps):
     '''Plots the 2-adic cellular automaton.
     Parameters
     ---------
-    q: (rational number) a rational number.
+    q: a rational number.
     timesteps: (integer) number of time steps in the evolution.
     '''
     if isinstance(timesteps, int) == False:
@@ -44,7 +44,7 @@ def run_multiplicative_2_adic_cellular_automata(q, timesteps):
     '''Plots the 2-adic cellular automaton.
     Parameters
     ---------
-    q: (rational number) a rational number.
+    q: a rational number.
     timesteps: (integer) number of time steps in the evolution.
     '''
     CA = []
